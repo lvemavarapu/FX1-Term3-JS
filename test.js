@@ -3,7 +3,8 @@
         Click me to display Date and Time.</button>
         
         <p id="demo"></p>
-let a = 1; */}
+        */}
+let a = 1; 
 let aAgain = 1;
 let aString = "1";  // note: this is string
 
@@ -111,7 +112,14 @@ let quotes = [
                     "Hard work beats talent when talent doesn’t work hard"
 
       ]
-      // FUNCTIONS
+
+
+
+
+
+      
+      // DAY 2
+      // FUNCTIONS, spread operator
 
 function addder(x,y, ...args){
   console.log(x,y,args)
@@ -170,4 +178,11 @@ adder(2,5,6,7,8)
 // interpolation cleaner
       let { Kat ="black" } =favColors
       console.log(`Toms fav color is ${kat}`)
+
+      // control structures from FX1- control structures
+      //if
+      //ternary
+      //while
+      //do-while
+      
 
