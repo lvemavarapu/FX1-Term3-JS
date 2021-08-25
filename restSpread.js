@@ -18,3 +18,4 @@ console.log(newNumbers)
 
 let favColors = {sally: "blue", tom: "red", scott: "purple"};
 let { first } = favColors;
+let {scott="white",garret = "yellow"}

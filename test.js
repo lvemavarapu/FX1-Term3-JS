@@ -163,21 +163,7 @@ adder(2,5,6,7,8)
       let[firstPerson, ...others]= people
       console.log(others)
 
-      let favColors={
-        ben:"yellow",
-        holly:"green",
-        jade:"orange"
-      }
-      let { jade } =favColors
-      console.log(`Toms fav color is ${jade}`)
-
-      let { Kat } =favColors
-      console.log(`Toms fav color is ${jade}`)
-      // what will be the output
-// best to use default values for
-// interpolation cleaner
-      let { Kat ="black" } =favColors
-      console.log(`Toms fav color is ${kat}`)
+      
 
       // control structures from FX1- control structures
       //if
@@ -185,4 +171,14 @@ adder(2,5,6,7,8)
       //while
       //do-while
       
+    let   weather = raining
+    if(weather = raining){
+      console.log("you need an umbrella")
+    }
+    else if(weather = sunny){
+      console.log("you need sunscreen")
+    }
+    else
+    console.log("you are all set for the day")
+
 

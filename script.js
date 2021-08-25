@@ -1,142 +1,136 @@
+//Objects
 
+// let employee ={
+//     name:"Lavanya",
+//     role:"educator",
+//     address: {
+//         city:"Brisbane",
+//         postCode: 4000,
+//         country: "Australia"
+//     }
+// }
+//control structures
+//if-else
 
+// let weather ="cloudy"
 
-// let quotes =["I became a good pitcher when I stopped trying to make them miss the ball and started trying to make them hit it.",
-// "There may be people that have more talent than you, but there’s no excuse for anyone to work harder than you do.",
-// "Winning isn’t everything, but wanting to win is.",
-// "You have to expect things of yourself before you can do them.",
-// "Today, you have 100% of your life left.",
-// "You miss 100% of the shots you don’t take",
-// "Never say never because limits, like fears, are often just an illusion.",
-// "The harder the battle, the sweeter the victory.",
-// "It’s hard to beat a person who never gives up.",
-// "Hard work beats talent when talent doesn’t work hard"
+// if(weather == "raining"){
+//     console.log("carry an umbrella")
+// }
+// // else if(weather == "sunny"){
+// //     console.log("you need sunscreen")
+// // }
+// else console.log("you are good  to go")
 
-// ]
+// ternary operator
 
-// for(initialization; condition;iteration){
-//     statements
+// let weather = "raining"
+
+// let forecast = (weather == "sunny") ? console.log("umbrella day"):console.log("sunnyday")
+
+// case statements
+
+// let fav_bird =  "Robin"
+// switch(fav_bird){
+//     case "crow":
+//         console.log("you like crows")
+//         break;
+//         case "robin":
+//             console.log("you like robins")
+//             break;
+//         default:
+//             console.log("not sure!!!")
 // }
 
-// for(let i=0;i<quotes.length;i++){
-//     console.log(i+1,quotes[i])
+// def add(a,b)
+//     puts a+b
+// end
+
+// function adder(x,y){
+//     return x + y
 // }
-//for ..each(quotes)
+// // console.log(adder(2,1))
+// // console.log(adder(2,3,4))
+// console.log(adder("hello", 4))
 
-// quotes.forEach((item,i) =>{
-//     console.log(i+1,item)
-// })
-
-// for(quote of quotes){
-//     console.log(quote)
+// function divide(x,y) {
+//     return x/y
 // }
+// console.log(divide(3,5))
+// // console.log(divide(1,"banana"))
 
-// let select = prompt("which quote do you want to view?")
-// console.log(quotes[select-1])
-
-// console.log(Math.random(...quotes))
-//while loop
-
-// let count =1;
-// while(count<11){
-//     console.log(count)
-//     count++;
+// function myArgs(){
+//     console.log(arguments)
 // }
-// let count = 17
+// console.log(myArgs(12,3,4,6))
 
-// do{
-//     count++;
-//     console.log(count);
-// }while ( count < 15)
-let quotes = [
-    {
-      quote:"Hard work beats talent when talent doesn’t work hard.",
-      source:"Tim Notke",
-    },
-    {
-      quote:"It’s hard to beat a person who never gives up.",
-      source:"Babe Ruth",
-      year:1930,
-      sport:"Baseball player"
-    },
-    {
-      quote:"The harder the battle, the sweeter the victory.",
-      source:"Les Brown",
-      sport:"Boxer"
-  
-    },
-    {
-      quote:"Never say never because limits, like fears, are often just an illusion.",
-      source:"Michael Jordan",
-      citation:"Chicago Tribune",
-      sport:"Basketball player"
-    },
-    {
-      quote:"You miss 100% of the shots you don’t take",
-      source:"Wayne Gretzky"
-    },
-    {
-      quote:"Today, you have 100% of your life left.",
-      source:"Tom Landry",
-    },
-    {
-      quote:"You have to expect things of yourself beforeet",
-    
-    },
-    {
-      quote:"Hard work beats talent when talent doesn’t work hard.",
-      source:"Tim Notke",
-    },
-    {
-      quote:"It’s hard to beat a person who never gives up.",
-      source:"Babe Ruth",
-      year:1930,
-      sport:"Baseball player"
-    },
-    {
-      quote:"The harder the battle, the sweeter the victory.",
-      source:"Les Brown",
-      sport:"Boxer"
-  
-    },
-    {
-      quote:"Never say never because limits, like fears, are often just an illusion.",
-      source:"Michael Jordan",
-      citation:"Chicago Tribune",
-      sport:"Basketball player"
-    },
-    {
-      quote:"You miss 100% of the shots you don’t take",
-      source:"Wayne Gretzky"
-    },
-    {
-      quote:"Today, you have 100% of your life left.",
-      source:"Tom Landry",
-    },
-    {
-      quote:"You have to expect things of yourself before you can do them.",
-      source:"Michael Jordan",
-      citation:"Chicago",
-      sport:"Basketball player"
-    },
-    {
-      quote:"Winning isn’t everything, but wanting to win is.",
-      source:"Vince Lombardi"
-    },
-    {
-      quote:"There may be people that have more talent than you, but there’s no excuse for anyone to work harder than you do.",
-      source:"Derek Jeter"
-    },
-    {
-      quote:"I became a good pitcher when I stopped trying to make them miss the ball and started trying to make them hit it.",
-      source:"Sandy Koufax",
-      year: 1950
-    }];
+// function adder(x,y){
+//     return x + y
+// }
+// // console.log(adder(2,1))
 
-    let select = prompt("which quote you want to see?")
-    quotes.forEach((quote,index) => {
-        console.log(index+1,quote.quote)
-    })
+// let adder = (a,b) => a+b
+// console.log(adder(4,5))
 
-   
-   
+// function divide(x,y) {
+//         return x/y
+//     }
+//     console.log(divide(3,5))
+
+    // let divide = (a,b) => a/b
+
+    // console.log(divide(12,4))
+
+    // const myArray=[1,2,3,4]
+
+    // const myNewArray = myArray.map((item)=> item +1)
+
+    // console.log(myNewArray)
+
+
+    // function add(a,b){
+    //     console.log("a+b=",a+b)
+    //     return a+b
+    // }
+    // function subtract(a,b){
+    //     console.log("a-b=",a-b)
+    //     return a-b
+    // }
+    // function calculate(callback,a,b){
+    //     callback(a,b)
+    // }
+    // calculate(add,5,3)
+    // calculate(subtract,10,5)
+
+
+    // destructuring.
+
+    // let  birds = ["parrot", "penguin","gallah","Toucan"]
+    // let mammals = ["dog","humans","cat","whale","elephant"]
+
+    // let allAnimals = [...birds, ...mammals]
+
+    // // allAnimals.push(birds)
+
+    // // let numbers =[2,3,4,5,6]
+
+    // // // Math.min([2,3,4,5,6])
+
+    // // console.log(Math.min(...numbers))
+
+    // function myArgs(a,b,c,...args){
+        
+    //     console.log(a,b,c,...args)
+    // }
+    // myArgs(1,2,3,4,6,7)
+// console.log(args)
+
+// let numbers = [1,2,3,4,5]
+// let [first] = numbers;
+// let allAnimals = ["cat","rat","bat"]
+// let fAnimal = allAnimals[0]
+// let people =["lavanya","teej","shauna"]
+// let first = people
+
+
+
