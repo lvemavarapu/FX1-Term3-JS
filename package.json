@@ -1,0 +1,17 @@
+{
+  "name": "week2-lessons",
+  "version": "1.0.0",
+  "description": "- Following program prints the numbers less than 50 - We can write the program in several ways,  let us try with the standard for loop - we can use a for loop",
+  "main": "errorHandling.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "awesome-dev-jokes": "^1.0.3",
+    "jest": "^27.0.6"
+  }
+}
