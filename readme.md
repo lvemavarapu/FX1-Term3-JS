@@ -256,9 +256,10 @@ alert( employee.age ) // 34
 alert(employee.city)  // city
 alert(employee.role)// undefined. user does not understand what is actually happening
 ```
+
 - Let us rewrite the above code withe  try-catch
 
-```javacsript
+```javascript
 let json = '{ "city": "Brisbane", "age": 30 }'; // incomplete data
 
 try {
