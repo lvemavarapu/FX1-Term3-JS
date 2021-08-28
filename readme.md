@@ -242,7 +242,7 @@ finally{
       console.log(dividedBy(20,"hello"))
       ```
        
-    -Here is another example:
+    - Here is another example:
   
   ```javascript
         let employee = JSON.parse(json) // convert the text representation to JS object
