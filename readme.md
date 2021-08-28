@@ -219,8 +219,8 @@ finally{
 ```
 
 
- ## Now let us add one more error handling which checks if the 
- ## function's arguments are valid numbers   
+ - Now let us add one more error handling which checks if the
+- function's arguments are valid numbers   
   
     ```javascript
        const dividedBy =(num1, num2) => {
@@ -243,6 +243,7 @@ finally{
       console.log(dividedBy(20, 0))
       console.log(dividedBy(20,"hello"))
     ```
+
   - Here is another example:
   
   ```javascript
@@ -255,7 +256,7 @@ finally{
         alert( employee.age ) // 34
         alert(employee.city)  // city
         alert(employee.role)// undefined as user does not understand what is actually happening
-```
+
 
 - Let us rewrite the above code withe  try-catch
 
