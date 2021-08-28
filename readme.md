@@ -218,11 +218,9 @@ finally{
     console.log(dividedBy(20, 0))
 ```
 
-
+ - Now let us add one more error handling which checks if the function's arguments are valid numbers  
   
     ```javascript
-    // Now let us add one more error handling which checks if the
-    // function's arguments are valid numbers  
     
        const dividedBy =(num1, num2) => {
        let division = 0
@@ -242,15 +240,15 @@ finally{
     }
       console.log(dividedBy(12, 4))
       console.log(dividedBy(20, 0))
-      console.log(dividedBy(20,"hello"))```
-    
+      console.log(dividedBy(20,"hello"))
+      ```
 
-  - Here is another example:
+  ## Here is another example:
   
   ```javascript
         let employee = JSON.parse(json); // convert the text representation to JS object
  
-    // Now user is an object with properties from the string
+    // user is an object with properties from the string
     // There is no exception handling hence when the alert(employee.role is hit it shows undefined)
 
         alert( employee.name ) // Smith
@@ -258,6 +256,7 @@ finally{
         alert(employee.city)  // city
         alert(employee.role)// undefined as user does not understand what is actually happening
   ```
+  
 - Let us rewrite the above code withe  try-catch
 
 ```javascript
