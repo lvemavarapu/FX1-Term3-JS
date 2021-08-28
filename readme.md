@@ -245,12 +245,10 @@ finally{
   - Here is another example:
   ```javascript
   let employee = JSON.parse(json); // convert the text representation to JS object
-  
-
+ 
 // Now user is an object with properties from the string
 // There is no exception handling hence when the alert(employee.role is hit it shows undefined)
 
-```javascript
 alert( employee.name ) // Smith
 alert( employee.age ) // 34
 alert(employee.city)  // city
