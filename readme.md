@@ -256,8 +256,7 @@ finally{
         alert( employee.age ) // 34
         alert(employee.city)  // city
         alert(employee.role)// undefined as user does not understand what is actually happening
-
-```
+  ```
 - Let us rewrite the above code withe  try-catch
 
 ```javascript
