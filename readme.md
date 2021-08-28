@@ -219,7 +219,7 @@ finally{
 ```
 
  - Now let us add one more error handling which checks if the 
- - function's arguments are valid numbers.   
+ - function's arguments are valid numbers   
   
     ```javascript
        const dividedBy =(num1, num2) => {
