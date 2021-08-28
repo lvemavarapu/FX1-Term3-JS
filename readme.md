@@ -216,11 +216,11 @@ finally{
   }
     console.log(dividedBy(12, 4))
     console.log(dividedBy(20, 0))
-```
 
- - Now let us add one more error handling which checks if the function's arguments are valid numbers  
+
+we can add more code to test in the try block belowNow let us add one more error handling which checks if the function's arguments are valid numbers  
   
-    ```javascript
+
        const dividedBy =(num1, num2) => {
        let division = 0
        try{
@@ -242,7 +242,7 @@ finally{
       console.log(dividedBy(20,"hello"))
       ```
        
-    - Here is another example:
+ Here is another example:
   
   ```javascript
         let employee = JSON.parse(json) // convert the text representation to JS object
