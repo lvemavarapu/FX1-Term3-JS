@@ -153,8 +153,8 @@ let uppers = quotes.map(q => q.quote.toUpperCase())
 
 ```
 
-- Now let us go back to the quotes example
-- let use the map function to print quotes in
+* Now let us go back to the quotes example
+* let use the map function to print quotes in
   
 ```javascript
         let uppers = quotes.map(q => q.quote.toUpperCase())
@@ -242,4 +242,35 @@ finally{
       console.log(dividedBy(20, 0))
       console.log(dividedBy(20,"hello"))
     ```
+  - Here is another example:
+  let employee = JSON.parse(json); // convert the text representation to JS object
   
+
+- Now user is an object with properties from the string
+- There is no exception handling hence when the alert(employee.role is hit it shows undefined)
+
+```javascript
+alert( employee.name ) // Smith
+alert( employee.age ) // 34
+alert(employee.city)  // city
+alert(employee.role)// undefined. user does not understand what is actually happening
+```
+- Let us rewrite the above code withe  try-catch
+
+```javacsript
+let json = '{ "city": "Brisbane", "age": 30 }'; // incomplete data
+
+try {
+
+  let user = JSON.parse(json); // <-- no errors
+
+  if (!user.name) {
+    throw new SyntaxError("Incomplete data: no name"); // (*)
+  }
+
+  alert( user.name );
+
+} catch (err) {
+  alert( "JSON Error: " + err.message ); // JSON Error: Incomplete data: no name
+}
+```
