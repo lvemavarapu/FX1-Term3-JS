@@ -243,20 +243,6 @@ finally{
       console.log(dividedBy(20, 0))
       console.log(dividedBy(20,"hello"))
       ```
-
-  ## Here is another example:
-  
-  ```javascript
-        let employee = JSON.parse(json) // convert the text representation to JS object
- 
-    // user is an object with properties from the string
-    // There is no exception handling hence when the alert(employee.role is hit it shows undefined)
-
-        alert( employee.name ) // Smith
-        alert( employee.age ) // 34
-        alert(employee.city)  // city
-        alert(employee.role)// undefined as user does not understand what is actually happening
-  ```
   
 - Let us rewrite the above code withe  try-catch
 
