@@ -216,7 +216,6 @@ finally{
   }
     console.log(dividedBy(12, 4))
     console.log(dividedBy(20, 0))
-
 ```
 
  - Now let us add one more error handling which checks if the 
