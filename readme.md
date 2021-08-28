@@ -218,6 +218,7 @@ finally{
     console.log(dividedBy(20, 0))
 ```
 
+
  - Now let us add one more error handling which checks if the function's arguments are valid numbers  
   
     ```javascript
@@ -246,7 +247,7 @@ finally{
   ## Here is another example:
   
   ```javascript
-        let employee = JSON.parse(json); // convert the text representation to JS object
+        let employee = JSON.parse(json) // convert the text representation to JS object
  
     // user is an object with properties from the string
     // There is no exception handling hence when the alert(employee.role is hit it shows undefined)
