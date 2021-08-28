@@ -242,8 +242,8 @@ finally{
     }
       console.log(dividedBy(12, 4))
       console.log(dividedBy(20, 0))
-      console.log(dividedBy(20,"hello"))
-    ```
+      console.log(dividedBy(20,"hello"))```
+    
 
   - Here is another example:
   
