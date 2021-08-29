@@ -275,3 +275,25 @@ try {
   alert( "JSON Error: " + err.message ); // JSON Error: Incomplete data: no name
 }
 ```
+Example 3:
+
+```javascript
+// prompting the user to entera value
+let number = prompt("Enter a positive integer between 0 to 100");
+
+// Storing the time when execution start
+let start = Date.now();
+
+try {
+    if(number > 0 && number <= 100) {
+        alert(Math.sqrt(9)); //calculate squareroot of number
+    } else {
+        throw new Error("An invalid value is entered!");
+    }
+} catch(e) {
+    alert(e.message);
+} finally {
+    // Displaying the time taken to execute the code
+    alert("Execution took: " + (Date.now() - start) + "ms");
+}
+```
