@@ -1,4 +1,4 @@
-# NOTES for 30 August 2021
+# 30 August 2021
 
 - Following program prints the numbers less than 50
 - We can write the program in several ways,  let us try with the standard for loop
