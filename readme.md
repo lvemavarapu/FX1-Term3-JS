@@ -163,12 +163,12 @@ fullCityName[0].style.fontSize = "50px"
 
 ```javascript
     ShowCitiesButton.addEventListener("click",()=>{
-    if(cityUL.style.display == 'none'){
-        cityUL.style.display = 'list-item'
+    if(cityNameList.style.display == 'none'){
+        cityNameList.style.display = 'list-item'
         ShowCitiesButton.innerText = "Hide list"
 
     }else {
-    cityUL.style.display = 'none'
+    cityNameList.style.display = 'none'
     ShowCitiesButton.innerText = "Show cities list"
     }
 })
