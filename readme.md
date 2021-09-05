@@ -153,9 +153,9 @@ fullCityName[0].style.fontSize = "50px"
 - step 1- it will display hide list button with no action.
 
 ```javascript
-    ShowCitiesButton.addEventListener("click",()=>{
-    cityUL.style.display == 'none'
-    ShowCitiesButton.innerText = "Hide list"
+    ShowListButton.addEventListener("click",()=>{
+    cityNameList.style.display == 'none'
+    ShowListButton.innerText = "Hide list"
 ```
 
 - step 2
