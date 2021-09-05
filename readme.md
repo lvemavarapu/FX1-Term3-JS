@@ -196,7 +196,7 @@ actualCity.addEventListener('click',() =>{
 })
 ```
 
-- to be watched again
+- if we would like to add  a event listener on the li, we can create an event listener on li as follows:
   
   ```javascript
   for (item of cities){
