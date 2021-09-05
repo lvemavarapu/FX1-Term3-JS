@@ -66,6 +66,7 @@ cityBox.style.fontFamily = "Garamond"
 
 const showListButton =document.createElement("button")
 showListButton.textContent ="Hide List"
+//document.body.appendChild(cityName)
 document.body.querySelector(".container").appendChild(showListButton)
 
 let xy = document.querySelectorAll("li:nth-child(odd)")
