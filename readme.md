@@ -115,6 +115,10 @@ how to **change the size of the quote alone, not the source
 ```javascript
 fullCityName[0].style.fontSize = "50px"
 ```
+```javascript
+let actualCity = document.querySelector(".city")
+actualCity.style.fontSize = "50px"
+```
 
 - Next let us create an unordered list and add list items to the Ul
   
