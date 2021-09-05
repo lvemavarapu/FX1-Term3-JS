@@ -49,7 +49,7 @@ for (item of y){item.style.color = "red"}
   
 ```javascript
 let s = document.createElement("h1")
-h1.innerHTML = " this H1 is created through the console"
+s.textContent = " this H1 is created through the console"
 ```
 
 - can we see this on the page ?
