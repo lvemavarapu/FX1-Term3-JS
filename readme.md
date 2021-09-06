@@ -22,7 +22,7 @@
   x.style.backgroundColor = " salmon"
   ```
 
-- Now refresh the page and show how the page reloads the HTML we  have originally defined.
+- Now refresh the page and see how the page reloads the HTML we  have originally defined.
 
 - add few more p classes in the dom.html
 
